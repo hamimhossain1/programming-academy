@@ -1,0 +1,90 @@
+/*--||----general css start----||--*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.project-color{
+    background: linear-gradient(132deg, rgb(224, 235, 213) 0.00%, rgb(37, 148, 141) 100.00%);
+}
+
+.project-btn{
+    outline: 0;
+    font-size: 18px;
+    padding: 10px 30px;
+    background-color: #22bedd;
+    color: #fff;
+    border: 4px solid #22bedd;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    border-radius: 5px;
+}
+
+.project-btn:hover{
+    background-color: transparent;
+    color: #22bedd;
+}
+
+/*--||----general css end----||--*/
+
+
+
+
+
+
+
+
+
+
+/*--||----navbar css start----||--*/
+/* .nav-logo{
+    width: 300px;
+    max-width: 100%;
+} */
+
+.nav-links li{
+    padding: 1.1rem;
+}
+
+/*--||----navbar css end----||--*/
+
+
+
+
+/*--||----general css start----||--*/
+.carousel-img img{
+    width: 100% !important;
+    height: 92vh !important;
+    object-fit: cover;
+    object-position: top;
+}
+/*--||----general css end----||--*/
+
+
+
+
+
+/*--||----general css start----||--*/
+/*--||----general css end----||--*/
+
+
+
+/*--||----general css start----||--*/
+/*--||----general css end----||--*/
+
+
+
+/*--||----general css start----||--*/
+/*--||----general css end----||--*/
+
+
+
+
