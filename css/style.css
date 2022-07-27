@@ -36,37 +36,68 @@ body{
 /*--||----general css end----||--*/
 
 
-
-
-
-
-
-
-
-
 /*--||----navbar css start----||--*/
-/* .nav-logo{
-    width: 300px;
-    max-width: 100%;
-} */
 
 .nav-links li{
-    padding: 1.1rem;
+    padding: 1rem;
+}
+
+.nav-links li a{
+    font-size: 1.2rem;
 }
 
 /*--||----navbar css end----||--*/
 
 
 
+/*--||----carousel css start----||--*/
 
-/*--||----general css start----||--*/
+.carousel-section{
+    margin-top: 6em;
+}
+
 .carousel-img img{
-    width: 100% !important;
-    height: 92vh !important;
+     width: 100% !important;
+    height: 74vh !important;
     object-fit: cover;
     object-position: top;
+
+   
 }
-/*--||----general css end----||--*/
+
+.carousel-items::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.6;
+        
+}
+
+.carousel-text{
+    bottom: 13em;
+}
+.carousel-text h1{
+    font-size: 4rem;
+    font-weight: bolder;
+}
+.carousel-text p{
+    font-size: 1rem;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    color: rgb(201, 196, 196);
+}
+
+/*--||----carousel css end----||--*/
+
+
+
+
+
 
 
 
@@ -82,8 +113,20 @@ body{
 
 
 
-/*--||----general css start----||--*/
-/*--||----general css end----||--*/
+
+/*--||----media queries css start----||--*/
+
+/* carousel  */
+@media only screen and (max-width: 576px) {
+    .carousel-text h1{
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+}
+/* carousel  */
+
+
+/*--||----media queries css end----||--*/
 
 
 
