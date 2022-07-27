@@ -33,6 +33,13 @@ body{
     color: #22bedd;
 }
 
+.project-margin{
+    margin-top: 10rem;
+}
+.project-text-spacing{
+    letter-spacing: 1px;
+}
+
 /*--||----general css end----||--*/
 
 
