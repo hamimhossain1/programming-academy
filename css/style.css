@@ -47,6 +47,11 @@ body{
 .project-text-color{
     color: #7F7F7F;
 }
+
+.project-title-weight{
+    font-size: 3.2rem;
+    font-weight: bolder !important;
+}
 /*--||----general css end----||--*/
 
 
