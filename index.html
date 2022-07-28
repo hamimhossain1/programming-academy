@@ -339,26 +339,70 @@
       <!-- e-learning institute end -->
 
 
-      <!-- ready to join section start -->
-      <section>
+      <!-- ready to join section (...modal...) start -->
+      <section >
+
+        <!-- Modal -->
+        <div class="modal fade" id="register" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+              <!-- model header  -->
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Register Now</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+
+              <!-- modal body  -->
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="first-name" class="col-form-label">First Name:</label>
+                    <input type="text" class="form-control" id="first-name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="last-name" class="col-form-label">Last Name:</label>
+                    <input type="text" class="form-control" id="last-name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="col-form-label">Email:</label>
+                    <input type="email" class="form-control" id="email">
+                  </div>
+                  <div class="mb-3">
+                    <label for="message-text" class="col-form-label">Message:</label>
+                    <textarea class="form-control" id="message-text"></textarea>
+                  </div>
+                </form>
+              </div>
+
+              <!-- modal footer  -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ready to join box  -->
         <div class=" container rounded-3 project-margin p-5 modal-bg">
-          <div class="row modal-section text-md-center text-sm-center">
+          <div class="row modal-section text-md-center text-sm-center text-lg-start text-center ">
 
             <div class="col-lg-7 text-white">
               <h1 class="fw-bold">Ready to join?</h1>
               <p class="fs-5">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
             </div>
           
+            <!-- register btn  -->
             <div class="col-lg-3">
-              
-              <button type="button" class="btn btn-light fw-bold py-3 text-info fs-4 px-4 modal-btn">Register Now</button>
+              <button type="button" class="btn btn-light fw-bold py-3 text-info fs-4 px-4 modal-btn" data-bs-toggle="modal" data-bs-target="#register">Register Now</button>
             </div>
           </div>
         </div>
       </section>
 
 
-      <!-- ready to join section end -->
+      <!-- ready to join section (...modal...) end -->
 
 
 
