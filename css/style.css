@@ -34,7 +34,7 @@ body{
 }
 
 .project-margin{
-    margin-top: 10rem;
+    margin-top: 8.3rem;
 }
 .project-text-spacing{
     letter-spacing: 1px;
@@ -165,32 +165,6 @@ color: #fff !important;
 /*--||----students feedback section end----||--*/
 
 
-/*--||----frequently asked questions section start----||--*/
-
-
-
-
-
-/*--||----frequently asked questions section end----||--*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*--||----trusted by companies section start----||--*/
 
 .compnay-title{
@@ -207,14 +181,7 @@ color: #fff !important;
 .ploicy{
     color: rgb(173, 160, 160);
 }
-
 /*--||----footer section end----||--*/
-
-
-
-
-
-
 
 
 
@@ -232,7 +199,6 @@ color: #fff !important;
     }
 
 }
-
 
 
 @media only screen and (max-width: 767px) {
@@ -283,7 +249,6 @@ width: 515px !important;
     font-weight: bold;
 }
 
-
 }
 
 
@@ -295,25 +260,4 @@ width: 515px !important;
     }
     
 }
-
-
-
 /*--||----media queries css end----||--*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* testtttttttttttttttttttttt */
-
-
-
