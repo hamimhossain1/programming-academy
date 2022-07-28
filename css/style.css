@@ -153,6 +153,37 @@ color: #fff !important;
 
 
 
+
+
+
+/*--||----trusted by companies section start----||--*/
+
+.compnay-title{
+    font-size: 3rem;
+}
+/*--||----trusted by companies section end----||--*/
+
+
+/*--||----footer section start----||--*/
+.footer-box{
+    height: 400px;
+    background-color: #000;
+}
+.ploicy{
+    color: rgb(173, 160, 160);
+}
+
+/*--||----footer section end----||--*/
+
+
+
+
+
+
+
+
+
+
 /*--||----media queries css start----||--*/
 
 /* carousel  */
