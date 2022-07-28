@@ -151,8 +151,16 @@ color: #fff !important;
 
 
 /*--||----students feedback section start----||--*/
-.feedback-stu{
-    width: 630px !important;
+.left-icon{
+    background-color: #E5F6FF !important;
+    padding: 10px 15px;
+    border-radius: 50%;
+}
+
+.right-icon{
+    background-color: #289BDE;
+    padding: 10px 15px;
+    border-radius: 50%;
 }
 
 
