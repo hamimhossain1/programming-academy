@@ -44,6 +44,11 @@ body{
     color: #289BDE;
 }
 
+.project-text-color{
+    color: #7F7F7F;
+}
+
+
 /*--||----general css end----||--*/
 
 
@@ -114,9 +119,18 @@ body{
 
 
 
-/*--||----general css start----||--*/
+/*--||----e-learning institute css start----||--*/
+.see-more{
+    text-decoration: none;
+}
 
-/*--||----general css end----||--*/
+.explore-bg{
+    background-color: #F4FAFD;
+}
+
+/*--||----e-learning institute css start----||--*/
+
+
 
 
 
@@ -145,7 +159,6 @@ width: 515px !important;
 }
 
 }
-
 /* popular courses  */
 
 
