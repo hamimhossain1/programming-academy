@@ -151,7 +151,9 @@ color: #fff !important;
 
 
 /*--||----students feedback section start----||--*/
-
+.feedback-stu{
+    width: 630px !important;
+}
 
 
 /*--||----students feedback section end----||--*/
