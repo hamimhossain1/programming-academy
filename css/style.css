@@ -208,6 +208,7 @@ color: #fff !important;
     .carousel-text{
         bottom: 7em;
     }
+
 }
 
 
@@ -217,6 +218,10 @@ color: #fff !important;
 /* general css  */
 .project-margin{
     margin-top: 3rem;
+}
+.project-title-weight{
+    font-size: 2.1rem;
+    font-weight: bolder !important;
 }
 
 /* courses  */
