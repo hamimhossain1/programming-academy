@@ -40,6 +40,10 @@ body{
     letter-spacing: 1px;
 }
 
+.course-card-price{
+    color: #289BDE;
+}
+
 /*--||----general css end----||--*/
 
 
@@ -111,6 +115,7 @@ body{
 
 
 /*--||----general css start----||--*/
+
 /*--||----general css end----||--*/
 
 
@@ -131,6 +136,18 @@ body{
     }
 }
 /* carousel  */
+
+/* popular courses  */
+@media only screen and (max-width: 767px) {
+.course-img img{
+width: 515px !important;
+/* height: 100vh !important; */
+}
+
+}
+
+/* popular courses  */
+
 
 
 /*--||----media queries css end----||--*/
