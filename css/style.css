@@ -144,8 +144,6 @@ body{
     background-color: #289BDE;
 }
 .modal-section{
-    /* height: 250px; */
-    /* min-height: 100%; */
     display: flex;
     justify-content: space-around;
     align-items: center;
