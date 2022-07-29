@@ -52,6 +52,17 @@ body{
     font-size: 3.2rem;
     font-weight: bolder !important;
 }
+
+.project-text-alignment{
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.project-text-alignment-left{
+    width: 500px;
+    max-width: 100%;
+}
 /*--||----general css end----||--*/
 
 
@@ -261,3 +272,8 @@ width: 515px !important;
     
 }
 /*--||----media queries css end----||--*/
+
+
+
+
+
